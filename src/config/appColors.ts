@@ -1,7 +1,7 @@
 export const appColors = {
-  primary: '#3B82F6',
+  primary: '#7C3AED',
   secondary: '#10B981',
-  accent: '#F59E0B',
+  accent: '#F97316',
   danger: '#EF4444',
   warning: '#FBBF24',
   success: '#10B981',

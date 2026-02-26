@@ -1,3 +1,9 @@
 [serve.static]
 env = "BUN_PUBLIC_*"
 plugins = ["bun-plugin-tailwind"]
+
+[bundle]
+alias = { "@/*" = "./src/*" }
+
+[compilerOptions]
+paths = { "@/*" = ["./src/*"] }
