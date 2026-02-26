@@ -1,11 +1,11 @@
 import { RouterProvider } from "react-router/dom";
 import "./index.css";
-import { createBrowserRouter } from "react-router";
+import { createHashRouter } from "react-router";
 import { routes } from "./router/routes";
 
 
 export function App() {
-  return <RouterProvider router={createBrowserRouter(routes)} />
+  return <RouterProvider router={createHashRouter(routes)} />
 }
 
 export default App;
