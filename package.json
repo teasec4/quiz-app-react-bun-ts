@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun --hot src/index.ts",
-    "build": "bun build ./src/index.html --outdir=dist --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'",
+    "build": "bun build ./src/index.html --outdir=dist --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*' --define:process.env.PUBLIC_URL='/quiz-app-react-bun-ts'",
     "start": "NODE_ENV=production bun src/index.ts",
     "predeploy": "bun run build",
     "deploy": "gh-pages -d dist"
